@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiumo - Find You More</title>
+    <link rel="shortcut icon" href="./logos/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navegacion">
+        <a href="index.html">
+        <img src="./logos/fiumo.png" alt="logo de Fiumo" class="navegacion__fiumo">
+        </a>
+        <ul>
+            <li class="navegacion__funcionalidades">
+                <a href="funcionalidades.html">Funcionalidades</a>
+            </li>
+            <li class="navegacion__eventos">
+                <a href="eventos.html">Eventos</a>
+            </li>
+            <li class="navegacion__nosotros">
+                <a href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="navegacion__contacto">
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="presentacion">
+        <header class="bienvenida">
+            <h1 class="bienvenida__titulo--xxl">¡Descubrí eso que querés hacer!</h1>
+        </header>
+        <div>
+            <img src="./img/amigosdefiesta.jpg" alt="Imagen de Amigos de fiesta" class="bienvenida__imagen">
+        </div> 
+        <section>
+            <form class="presentacion__formulario" action="#">
+                <h2 class="presentacion__titulo--xl">Enterate antes que nadie!!</h2>
+                <label for="Nombre">Nombre y Apellido</label>
+                <input type="text"id="Nombre" class="presentacion__nombre">
+                <label for="Edad">Edad</label>
+                <input type="number"id="Edad" class="presentacion__edad">
+                <label for="Ciudad">Ciudad</label>
+                <input type="text"id="Ciudad" class="presentacion__ciudad">
+                <label for="Email">Email</label>
+                <input type="Email"id="Email" class="presentacion__email">
+                <input type="submit" value="¡Descubre!" id="Enviar" class="presentacion__descubre">  
+            </form>
+        </section>
+        <section class="presentacion__caracteristicas">
+            <p id="caracteristica1">Información precisa y actualizada de eventos locales.</p>
+            <p id="caracteristica2">Conecta con otros que busquen lo mismo que vos.</p>
+            <p id="caracteristica3">Haz nuevas amistades mientras realizas actividades increíbles.</p>
+        </section>
+        <section class="presentacion__opiniones">
+            <p id="leandro">Leandro (23): “Las aplicaciones de citas no sirven para conocer gente, al fin una opción distinta”.</p>
+            <p id="camila">Camila (28): “A veces uno quiere hacer una actividad y no tiene con quién, Fiumo permite conectar con alguien y hacer eso que querés”.</p>
+            <p id="agustina">Agustina (25): “Que bueno tener una herramienta que me muestre todas las opciones de actividades que hay cerca mío!”.</p>
+        </section>
+        <section class="presentacion__video">
+            <h2 class="presentacion__titulo2--xl">¡El mejor aliado de tu viaje solo!</h2>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/2-_BvBiOmno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video__descripcion">Fiumo es una herramienta que brinda información de todos los eventos y actividades cercanas, permitiendo también conectar y conocer a otros para poder realizarlas, de esta forma ayuda a los viajeros a hacer amigos y pasarla bien donde quiera que vayan.</p>
+        </section>
+    </main>
+    <footer class="redes align-items">
+       <a href="https://www.facebook.com/" target="_blank">
+           <img src="./logos/facebook.png" alt="Seguinos en Facebook" class="redes__facebook--sm">
+      </a>
+      <a href="https://twitter.com/" target="_blank">
+           <img src="./logos/twitter.png" alt="Seguinos en Twitter" class="redes__twitter--sm">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+           <img src="./logos/instagram.png" alt="Seguinos en Instagram" class="redes__instagram--sm">
+      </a>
+    </footer>
+</body>
+</html>

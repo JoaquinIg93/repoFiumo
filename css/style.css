@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    list-style: none; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body{
+    background-color: rgb(209, 197, 231)
+}
+
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(82, 7, 92)
+}
+
+main section h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+nav ul{
+    width: auto;
+    height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 30rem;
+    padding: 1rem 1rem;
+    display: inline-block;
+}
+
+nav ul li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    display: inline-block
+}
+
+nav ul li a{
+    color: rgb(82, 7, 92);
+    text-decoration: none;
+    margin: 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    filter: brightness(1.5);
+}
+
+section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    background-color: rgb(215, 173, 228);
+    border: solid blueviolet 0.5rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+form{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+form label input{
+    display: inline-block;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 300;
+}
+
+main div a img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+main section p img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.fotoDj{
+    grid-area: fotoA;
+}
+.fotoExcursion{
+    grid-area: fotoB;
+}
+.fotoFiesta{
+    grid-area: fotoC;
+}
+.fotoPlaya{
+    grid-area: fotoD;
+}
+.fotoRecital{
+    grid-area: fotoE;
+}
+.fotoTrekking{
+    grid-area: fotoF;
+}
+
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,300px);
+    grid-template-areas:
+    "fotoA"
+    "fotoB"
+    "fotoC"
+    "fotoD"
+    "fotoE"
+    "fotoF"
+}
+
+
+@media(min-width:768px){
+    #galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,400px);
+        grid-template-areas: 
+        "fotoA fotoB"
+        "fotoA fotoC"
+        "fotoA fotoD"
+        "fotoE fotoF";
+    }
+}
+
+@media(min-width:1200px){
+    #galeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,500px);
+        grid-template-areas: 
+        "fotoA fotoB fotoC"
+        "fotoD fotoE fotoF";
+    }
+
+    main div a img{
+        filter: grayscale(3);
+    }
+    main img:hover{
+        filter: none;
+    }
+}
+
+.bienvenida{
+    display: flex
+}
+
+.bienvenida__titulo--xxl{
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.navegacion{
+    display: flex;
+    text-align: right;
+}
+
+.presentacion{
+    display: inline-block;
+}
+
+.bienvenida__imagen{
+   width: 48%;
+   margin-left: 2rem;
+   float: left;
+}
+
+.presentacion__titulo--xl{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.presentacion__formulario{
+    text-align: left;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    border: solid rgb(164, 15, 201) 1rem;
+    padding: 1rem;
+    float: right;
+    flex-direction: row;
+}
+
+.presentacion__nombre{
+    display: flex;
+    width: 100%;
+}
+.presentacion__edad{
+    display: flex;
+    width: 100%;
+}
+.presentacion__ciudad{
+    display: flex;
+    width: 100%;
+}
+.presentacion__email{
+    display: flex;
+    width: 100%;
+}
+.presentacion__descubre{
+   margin: 3rem 20%;
+   text-align: center;
+   justify-content: center;
+   width: 60%;
+   background-color:rgb(146, 156, 247);
+   font-size: 2rem;
+}
+
+.presentacion__descubre:hover{
+    filter: contrast(2);
+ }
+
+.presentacion__consulta{
+    display: flex;
+    width: 100%;
+}
+
+.presentacion__enviar{
+    margin: 2rem;
+    width: 85%;
+    background-color:rgb(146, 156, 247);
+    font-size: 2rem;
+}
+
+.presentacion__enviar:hover{
+    filter: contrast(2);
+}
+
+.presentacion__video{
+    display: inline-block;
+    text-align: center;
+}
+
+.presentacion__titulo2--xl{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.video{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.video__descripcion{
+    display: inline-block;
+    text-align: center;
+    border: none;
+}
+
+.presentacion__caracteristicas{
+    display: inline-block;
+    margin: 3rem 5rem;
+    border: solid rgb(77, 25, 201) 0.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.presentacion__opiniones{
+    display: flex;
+    justify-content: right;
+}
+
+.consulta__titulo--xxl{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.nosotros__titulo--xxl{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.identidad{
+    display: block;
+    text-align: center;
+}
+
+.identidad__vision--xl{
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    margin: 1rem;
+}
+.identidad__mision--xl{
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    margin: 1rem;
+}
+.identidad__objetivos--xl{
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    margin: 1rem;
+}
+.eventos__titulo--xxl{
+    font-size: 4rem;
+    text-align: center;
+}
+.eventos__descripcion{
+    display: inline-block;
+    text-align: center;
+}
+
+.funcionalidades__titulo--xxl{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.funcionalidades__descripcion{
+    display: inline-block;
+    text-align: center;
+}
+
+.funcionalidades__buscar{
+    width: 95%;
+    margin-left: 1rem;
+}
+.funcionalidades__crear{
+    width: 95%;
+    margin-left: 1rem;
+}
+.funcionalidades__chat{
+    width: 95%;
+    margin-left: 1rem;
+}
+
+.formulario__campos{
+    text-align: center;
+    margin-top: 1%;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+
+.redes__facebook--sm{
+    margin: 1rem;
+    width: 50%;
+    align-items: center;
+}
+
+.redes__twitter--sm{
+    margin: 1rem;
+    width: 50%;
+    align-items: center;
+}
+
+.redes__instagram--sm{
+    margin: 1rem;
+    width: 50%;
+    align-items: center;
+}
