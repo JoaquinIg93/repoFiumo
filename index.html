@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./logos/favicom.png" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
 </head>
 <body>
     <nav class="navegacion">
@@ -30,7 +31,7 @@
         </ul>
     </nav>
     <main class="presentacion">
-        <header class="bienvenida">
+        <header class="animate__bounceIn">
             <h1 class="bienvenida__titulo--xxl">¡Descubrí eso que querés hacer!</h1>
         </header>
         <div>
@@ -78,5 +79,9 @@
       </a>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

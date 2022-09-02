@@ -162,10 +162,6 @@ main section p img{
     }
 }
 
-.bienvenida{
-    display: flex
-}
-
 .bienvenida__titulo--xxl{
     font-size: 4rem;
     text-align: center;
