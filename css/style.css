@@ -34,7 +34,7 @@ nav ul{
     height: 1rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
-    margin-left: 30rem;
+    margin-left: 40rem;
     padding: 1rem 1rem;
     display: inline-block;
 }
@@ -162,10 +162,6 @@ main section p img{
     }
 }
 
-.bienvenida{
-    display: flex
-}
-
 .bienvenida__titulo--xxl{
     font-size: 4rem;
     text-align: center;
@@ -196,7 +192,7 @@ main section p img{
 .presentacion__formulario{
     text-align: left;
     margin-top: 2rem;
-    margin-right: 4rem;
+    margin-right: 20rem;
     border: solid rgb(164, 15, 201) 1rem;
     padding: 1rem;
     float: right;
@@ -272,7 +268,7 @@ main section p img{
 
 .presentacion__caracteristicas{
     display: inline-block;
-    margin: 3rem 5rem;
+    margin: 3rem 2rem;
     border: solid rgb(77, 25, 201) 0.5rem;
     text-align: center;
     padding: 1rem;
@@ -280,7 +276,6 @@ main section p img{
 
 .presentacion__opiniones{
     display: flex;
-    justify-content: right;
 }
 
 .consulta__titulo--xxl{
