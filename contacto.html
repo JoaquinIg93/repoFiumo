@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiumo - Find You More</title>
     <link rel="shortcut icon" href="./logos/favicom.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- Aos CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
-    <nav class="navegacion">
-        <a href="index.html">
-        <img src="./logos/fiumo.png" alt="logo de Fiumo" class="navegacion__fiumo">
+<body id="body">
+    <!-- Starts Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./logos/fiumo.png" alt="logo de Fiumo" class="navegacion__fiumo">
         </a>
-        <ul>
-            <li class="navegacion__funcionalidades">
-                <a href="funcionalidades.html">Funcionalidades</a>
-            </li>
-            <li class="navegacion__eventos">
-                <a href="eventos.html">Eventos</a>
-            </li>
-            <li class="navegacion__nosotros">
-                <a href="nosotros.html">Nosotros</a>
-            </li>
-            <li class="navegacion__contacto">
-                <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg viewBox="0 0 90 80" width="50" height="50" class="mt-2">
+              <rect width="100" height="10"></rect>
+              <rect y="30" width="100" height="10"></rect>
+              <rect y="60" width="100" height="10"></rect>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-1 mb-5 mb-lg-5 bg-white">
+                <li class="navegacion__funcionalidades bg-white">
+                    <a href="funcionalidades.html">Funcionalidades</a>
+                </li>
+                <li class="navegacion__eventos bg-white">
+                    <a href="eventos.html">Eventos</a>
+                </li>
+                <li class="navegacion__nosotros bg-white">
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="navegacion__contacto bg-white">
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+      </nav>
+    <!-- End Nav -->
     <header class="consulta">
         <h1 class="consulta__titulo--xxl">Envianos tu Consulta</h1>
     </header>
-    <main class="formulario">
-        <section class="formulario__campos">
-        <form action="#">
-            <label for="Nombre">Nombre y Apellido</label>
-            <input type="text"id="Nombre" class="presentacion__nombre">
-            <label for="Edad">Edad</label>
-            <input type="number"id="Edad" class="presentacion__edad">
-            <label for="Ciudad">Ciudad</label>
-            <input type="text"id="Ciudad" class="presentacion__ciudad">
-            <label for="Email">Email</label>
-            <input type="Email"id="Email" class="presentacion__nombre">
-            <label for="Consulta">Dejanos tu consulta</label>
-            <textarea name="" id="Consulta" class="presentacion__consulta" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar" id="Enviar" class="presentacion__enviar">
-        </form>
-        </section>
-    </main>
+  <!-- Starts Form -->
+  <main class="formulario">
+    <section class="formulario__campos">
+      <form>
+        <div class="mb-3">
+          <label for="Nombre" class="form-label">Nombre y Apellido</label>
+          <input type="text" class="form-control" id="Nombre">
+        </div>
+        <div class="mb-3">
+          <label for="Edad" class="form-label">Edad</label>
+          <input type="number" class="form-control" id="Edad">
+        </div>
+        <div class="mb-3">
+          <label for="Ciudad" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="Ciudad">
+        </div>
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email</label>
+          <input type="Email" class="form-control" id="Email" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">No compartiremos tu email con nadie</div>
+        </div>
+        <div class="mb-3">
+          <label for="Consulta" class="form-label">Dejanos tu consulta</label>
+          <textarea name="Consulta" class="form-control" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="presentacion__enviar">Enviar</button>
+      </form>
+    </section>
+</main>
+<!-- Ends Form -->
     <footer class="redes">
         <a href="https://www.facebook.com/" target="_blank">
            <img src="./logos/facebook.png" alt="Seguinos en Facebook" class="redes__facebook--sm">
@@ -59,5 +91,12 @@
            <img src="./logos/instagram.png" alt="Seguinos en Instagram" class="redes__instagram--sm">
         </a>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

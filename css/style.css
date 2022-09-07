@@ -14,7 +14,7 @@ nav{
     background-color: rgba(255, 255, 255, 1);
 }
 
-body{
+#body{
     background-color: rgb(209, 197, 231)
 }
 
@@ -54,8 +54,17 @@ nav ul li a{
     display: inline-block;
 }
 
+.bg-white{
+    background-color: rgba(255, 255, 255, 1);
+}
+
 nav ul li a:hover{
     filter: brightness(1.5);
+    color: rgb(82, 7, 92);
+}
+
+button svg{
+    fill: rgb(82, 7, 92);
 }
 
 section p{
@@ -165,11 +174,12 @@ main section p img{
 .bienvenida__titulo--xxl{
     font-size: 4rem;
     text-align: center;
-    display: flex;
-    margin-left: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
-.navegacion{
+#navegacion{
     display: flex;
     text-align: right;
 }
@@ -187,36 +197,42 @@ main section p img{
 .presentacion__titulo--xl{
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+.col-lg-6{
+    margin-top: 3rem;
 }
 
 .presentacion__formulario{
     text-align: left;
-    margin-top: 2rem;
-    margin-right: 20rem;
     border: solid rgb(164, 15, 201) 1rem;
     padding: 1rem;
-    float: right;
-    flex-direction: row;
+    align-items: center;
 }
 
 .presentacion__nombre{
     display: flex;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .presentacion__edad{
     display: flex;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .presentacion__ciudad{
     display: flex;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .presentacion__email{
     display: flex;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .presentacion__descubre{
-   margin: 3rem 20%;
+   margin: 1.5rem 20%;
    text-align: center;
    justify-content: center;
    width: 60%;
@@ -231,6 +247,7 @@ main section p img{
 .presentacion__consulta{
     display: flex;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .presentacion__enviar{
@@ -252,6 +269,8 @@ main section p img{
 .presentacion__titulo2--xl{
     font-size: 3rem;
     text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .video{
@@ -264,6 +283,7 @@ main section p img{
     display: inline-block;
     text-align: center;
     border: none;
+    margin-top: 3rem;
 }
 
 .presentacion__caracteristicas{
@@ -275,17 +295,23 @@ main section p img{
 }
 
 .presentacion__opiniones{
-    display: flex;
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
 }
 
 .consulta__titulo--xxl{
     font-size: 4rem;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .nosotros__titulo--xxl{
     font-size: 4rem;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .identidad{
@@ -297,37 +323,49 @@ main section p img{
     font-size: 3rem;
     text-align: center;
     display: block;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .identidad__mision--xl{
     font-size: 3rem;
     text-align: center;
     display: block;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .identidad__objetivos--xl{
     font-size: 3rem;
     text-align: center;
     display: block;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .eventos__titulo--xxl{
     font-size: 4rem;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .eventos__descripcion{
     display: inline-block;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .funcionalidades__titulo--xxl{
     font-size: 4rem;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .funcionalidades__descripcion{
     display: inline-block;
     text-align: center;
+}
+
+.funcionalidades__descripcion2{
+   margin-bottom: 3rem;
 }
 
 .funcionalidades__buscar{
@@ -339,6 +377,11 @@ main section p img{
     margin-left: 1rem;
 }
 .funcionalidades__chat{
+    width: 95%;
+    margin-left: 1rem;
+}
+
+.funcionalidades__solicitudes{
     width: 95%;
     margin-left: 1rem;
 }
