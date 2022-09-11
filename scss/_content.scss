@@ -1,0 +1,240 @@
+//Headlines
+h1,h2,h3{
+    font-family: $uniqueFont;
+    font-weight: $headlineWeight;
+    color: $mainColor;
+}
+
+#body{
+    background-color: $backgroundColor;
+}
+
+//Index
+main{
+    section{
+        h2{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+}
+}
+
+section{
+    p{
+    font-family: $uniqueFont;
+    font-size: $text;
+    line-height: 2.2rem;
+    background-color: $paragraphColor;
+    border: solid $borderColor 0.5rem;
+    padding: 1rem;
+    display: inline-block;
+}
+}
+
+p{
+   font-family: $uniqueFont;
+   font-size: $text;
+   line-height: 2.2rem;
+   font-weight: $textWeight;
+}
+
+form{
+    font-family: $uniqueFont;
+    font-size: $form;
+    line-height: 2rem;
+    display: inline-block;
+    justify-content: flex-end;
+    label input{
+        display: inline-block;
+    }
+}
+
+.bienvenida__titulo--xxl{
+    font-size: $headlineXxl;
+    text-align: center;
+    align-items: center;
+    margin-top: $MarginXl;
+    margin-bottom: $MarginMd;
+}
+
+#navegacion{
+    display: flex;
+    text-align: right;
+}
+
+.presentacion{
+    display: inline-block;
+}
+
+.bienvenida__imagen{
+   width: 48%;
+   margin-left: $MarginL;
+   float: left;
+}
+
+.presentacion__titulo--xl{
+    font-size: $headlineXl;
+    text-align: center;
+    margin-bottom: $MarginL;
+}
+
+.col-lg-6{
+    margin-top: $MarginXl;
+}
+
+.presentacion__formulario{
+    text-align: left;
+    border: solid $borderColor 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.formField{
+    display: flex;
+    width: 100%;
+    margin-bottom: $MarginMd;
+}
+
+
+.presentacion__descubre{
+    margin: 1.5rem 20%;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    background-color: $actionColor;
+    font-size: $text;
+ }
+ 
+ .presentacion__descubre:hover{
+     filter: contrast(2);
+  }
+ 
+ .presentacion__consulta{
+     display: flex;
+     width: 100%;
+     margin-bottom: $MarginMd;
+ }
+ 
+ .presentacion__enviar{
+     margin: $MarginL;
+     width: 85%;
+     background-color: $actionColor;
+     font-size: $MarginL;
+ }
+ 
+ .presentacion__enviar:hover{
+     filter: contrast(2);
+ }
+ 
+ 
+.presentacion__video{
+    display: inline-block;
+    text-align: center;
+}
+
+.presentacion__titulo2--xl{
+    font-size: $headlineXl;
+    text-align: center;
+    margin-top: $MarginXl;
+    margin-bottom: $MarginL;
+}
+
+.video{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.video__descripcion{
+    display: inline-block;
+    text-align: center;
+    border: none;
+    margin: $MarginMd $MarginL;
+}
+
+.presentacion__caracteristicas{
+    display: inline-block;
+    margin: $MarginXl $MarginL;
+    border: solid $secondaryBorderColor 0.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.presentacion__opiniones{
+    display: inline-block;
+    margin: $MarginMd;
+    text-align: center;
+}
+
+//Nosotros
+.nosotros__titulo--xxl{
+    font-size: $headlineXxl;
+    text-align: center;
+    margin-top: $MarginL;
+    margin-bottom: $MarginL;
+}
+
+.identidad{
+    display: block;
+    text-align: center;
+    margin: $MarginMd $MarginL;
+}
+
+.identidad__subtitulos{
+    font-size: $headlineXl;
+    text-align: center;
+    display: block;
+    margin-top: $MarginL;
+    margin-bottom: $MarginMd;
+}
+
+//Eventos
+.eventos__titulo--xxl{
+    font-size: $headlineXxl;
+    text-align: center;
+    margin-top: $MarginL;
+    margin-bottom: $MarginL;
+}
+.eventos__descripcion{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: $MarginXl;
+    margin: $MarginMd $MarginL;
+}
+
+//Funcionalidades
+.funcionalidades__titulo--xxl{
+    font-size: $headlineXxl;
+    text-align: center;
+    margin-top: $MarginL;
+    margin-bottom: $MarginL;
+}
+
+.funcionalidades__descripcion{
+    display: inline-block;
+    text-align: center;
+    margin: $MarginMd $MarginL;
+}
+
+.funcionalidades__descripcion2{
+   margin-bottom: $MarginXl;
+}
+
+.funcionalidades__seccion{
+    width: 100%;
+}
+
+//Consulta
+.consulta__titulo--xxl{
+    font-size: $headlineXxl;
+    text-align: center;
+    margin-top: $MarginL;
+    margin-bottom: $MarginL;
+}
+
+.formulario__campos{
+    text-align: center;
+    margin-top: 1%;
+    padding: 1rem;
+    justify-content: center;
+}

@@ -1,0 +1,79 @@
+//Grid Gallery Responsive
+main{
+    section{
+        p img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    div a img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.fotoDj{
+    grid-area: fotoA;
+}
+.fotoExcursion{
+    grid-area: fotoB;
+}
+.fotoFiesta{
+    grid-area: fotoC;
+}
+.fotoPlaya{
+    grid-area: fotoD;
+}
+.fotoRecital{
+    grid-area: fotoE;
+}
+.fotoTrekking{
+    grid-area: fotoF;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,300px);
+    grid-template-areas:
+    "fotoA"
+    "fotoB"
+    "fotoC"
+    "fotoD"
+    "fotoE"
+    "fotoF"
+}
+
+
+@media(min-width:768px){
+    #galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,400px);
+        grid-template-areas: 
+        "fotoA fotoB"
+        "fotoA fotoC"
+        "fotoA fotoD"
+        "fotoE fotoF";
+    }
+}
+
+@media(min-width:1200px){
+    #galeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,500px);
+        grid-template-areas: 
+        "fotoA fotoB fotoC"
+        "fotoD fotoE fotoF";
+    }
+
+    main div a img{
+        filter: grayscale(3);
+    }
+    main img:hover{
+        filter: none;
+    }
+}
+
+

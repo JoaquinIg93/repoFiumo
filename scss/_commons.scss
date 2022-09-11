@@ -1,0 +1,17 @@
+//Variables Scheme of Colors 
+$backgroundColor:rgb(209, 197, 231);
+$navColor:rgba(255, 255, 255, 1);
+$mainColor: rgb(82, 7, 92);
+$actionColor: rgb(146, 156, 247);
+$borderColor: rgb(164, 15, 201);
+$secondaryBorderColor:rgb(77, 25, 201);
+$paragraphColor: rgb(215, 173, 228);
+
+*{
+    box-sizing: border-box;
+    list-style: none; 
+}
+
+html{
+    font-size: 62.5%;
+}
