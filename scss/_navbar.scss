@@ -1,6 +1,5 @@
 //Navbar Nesting
 nav{
-    background-color: $navColor;
 
     ul{
         width: auto;
@@ -17,7 +16,7 @@ nav{
             font-size: $headlineXl;
             line-height: 3.2rem;
             display: inline-block;
-            background-color: rgba(255, 255, 255, 1);
+            background-color: $navColor;
 
             a{
               color: $mainColor;

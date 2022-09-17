@@ -1,0 +1,58 @@
+- En el archivo index.html sumé el SEO con las siguientes características:
+
+•	Descripción: Mediante la etiqueta meta name description, agregué el siguiente párrafo que explica de que trata el proyecto que muestro en mi sitio web: “Somos una startup en la etapa pre-incubación, llamada “Fiumo” (Find You More), que busca facilitar y consolidar la idea de conocer gente viajando, promoviendo el desarrollo económico y el trabajo sustentable de diferentes locaciones al conectar a los que buscan experiencias en una ubicación y momento dados, con los que crean esos eventos que se lo ofrecen, ya sean comercios o emprendedores locales."
+
+•	Encabezado: Para el encabezado del h1 utilicé el texto: “¡Descubrí eso que querés hacer!”
+
+•	Título: Para el título utilicé el texto personalizado: “Fiumo – Find You More”
+
+
+
+- En el archivo funcionalidades.html sumé el SEO con las siguientes características:
+
+•	Descripción: Mediante la etiqueta meta name description, agregué el siguiente párrafo que explica las funcionalidades del proyecto que muestro en mi sitio web: “Aplicación que brinda información sobre los eventos u actividades recreativas que se encuentran dentro de cierta área geográfica, pudiendo solicitar ser parte de esta al realizar una búsqueda por tipo de evento o palabra clave. Permite la creación de eventos por particulares, pequeños comercios, emprendedores u empresas que tengan usuario en la app y que ofrezcan un evento u actividad al público general, promoviendo así el desarrollo económico local."
+
+•	Encabezado: Para el encabezado del h1 utilicé el texto: “Podrás buscar y crear todo tipo de eventos”
+
+•	Título: Para el título utilicé el texto personalizado: “Fiumo – Find & Create”
+
+
+
+- En el archivo eventos.html sumé el SEO con las siguientes características:
+
+•	Descripción: Mediante la etiqueta meta name description, agregué el siguiente párrafo que explica las ventajas de crear y buscar eventos con el proyecto que muestro en mi sitio web: “Se beneficiarán tantos los usuarios que buscan actividades, que podrán conectar con otros para poder realizarlas, con la ventaja de acceder a mejores precios por ser un grupo mayor. Y los que ofrecen los eventos tendrán una herramienta muy útil de promoción, ya que podrán publicar las actividades que ofrecen y tendrán una mejor planificación de a que horario y cuánta gente recibirán.”
+
+•	Encabezado: Para el encabezado del h1 utilicé el texto: “¡Todos los eventos que te imagines en la palma de tu mano!”
+
+•	Título: Para el título utilicé el texto personalizado: “Fiumo – Events Near You”
+
+
+
+- En el archivo nosotros.html sumé el SEO con las siguientes características:
+
+•	Descripción: Mediante la etiqueta meta name description, agregué el siguiente párrafo que explica las ventajas y problemas que se pueden resolver utilizando el proyecto que muestro en mi sitio web: “Atendemos la dificultad que tienen las personas en conocer la oferta de actividades recreativas disponibles en cierto lugar en tiempo real, principalmente en un viaje, además de la imposibilidad de conectar con otros para poder realizarlas en caso de no contar con alguien disponible. También atendemos la problemática que tienen comercios y emprendedores locales en dar a conocer sus propuestas de actividades y conseguir nuevos clientes.”
+
+•	Encabezado: Para el encabezado del h1 utilicé el texto: “Lo que significa ser Fiumo”
+
+•	Título: Para el título utilicé el texto personalizado: “Fiumo – Who We Are”
+
+
+
+- En el archivo contacto.html sumé el SEO con las siguientes características:
+
+•	Descripción: Mediante la etiqueta meta name description, agregué el siguiente párrafo para describir que animamos a que se haga cualquier consulta del proyecto que muestro en mi sitio web: “Envianos cualquier consulta que tengas sobre nuestra app Fiumo y contestaremos lo antes posible”
+
+•	Encabezado: Para el encabezado del h1 utilicé el texto: “Envianos tu Consulta”
+
+•	Título: Para el título utilicé el texto personalizado: “Fiumo – Contact Us”
+
+
+
+- Para todas las páginas HTML sumé el SEO con las siguientes características:
+
+•	Palabras Clave: Mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "viajar, solo, amigos, eventos locales, grupos, conocer gente, fiumo, conectar, experiencias"
+
+•	Autor: Mediante la etiqueta meta name author, agregué mi nombre como autor de todas las páginas de mi sitio: "Joaquin Ignacio Marsico"
+
+•	Texto Alternativo: Para todas las páginas de mi sitio con imágenes, extendí la explicación brindada en el texto alternativo, explicando así con mayor detalle de que trataba la misma.
+

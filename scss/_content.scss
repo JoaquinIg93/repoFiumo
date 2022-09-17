@@ -5,10 +5,6 @@ h1,h2,h3{
     color: $mainColor;
 }
 
-#body{
-    background-color: $backgroundColor;
-}
-
 //Index
 main{
     section{
@@ -17,25 +13,6 @@ main{
             text-align: center;
         }
 }
-}
-
-section{
-    p{
-    font-family: $uniqueFont;
-    font-size: $text;
-    line-height: 2.2rem;
-    background-color: $paragraphColor;
-    border: solid $borderColor 0.5rem;
-    padding: 1rem;
-    display: inline-block;
-}
-}
-
-p{
-   font-family: $uniqueFont;
-   font-size: $text;
-   line-height: 2.2rem;
-   font-weight: $textWeight;
 }
 
 form{
@@ -94,38 +71,6 @@ form{
     width: 100%;
     margin-bottom: $MarginMd;
 }
-
-
-.presentacion__descubre{
-    margin: 1.5rem 20%;
-    text-align: center;
-    justify-content: center;
-    width: 60%;
-    background-color: $actionColor;
-    font-size: $text;
- }
- 
- .presentacion__descubre:hover{
-     filter: contrast(2);
-  }
- 
- .presentacion__consulta{
-     display: flex;
-     width: 100%;
-     margin-bottom: $MarginMd;
- }
- 
- .presentacion__enviar{
-     margin: $MarginL;
-     width: 85%;
-     background-color: $actionColor;
-     font-size: $MarginL;
- }
- 
- .presentacion__enviar:hover{
-     filter: contrast(2);
- }
- 
  
 .presentacion__video{
     display: inline-block;
