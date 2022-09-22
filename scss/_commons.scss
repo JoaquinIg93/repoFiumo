@@ -6,6 +6,7 @@ $actionColor: rgb(146, 156, 247);
 $borderColor: rgb(164, 15, 201);
 $secondaryBorderColor:rgb(77, 25, 201);
 $paragraphColor: rgb(215, 173, 228);
+$boxShadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
 *{
     box-sizing: border-box;
@@ -15,3 +16,4 @@ $paragraphColor: rgb(215, 173, 228);
 html{
     font-size: 62.5%;
 }
+

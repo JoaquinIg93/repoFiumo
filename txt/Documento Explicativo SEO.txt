@@ -32,7 +32,7 @@
 
 •	Descripción: Mediante la etiqueta meta name description, agregué el siguiente párrafo que explica las ventajas y problemas que se pueden resolver utilizando el proyecto que muestro en mi sitio web: “Atendemos la dificultad que tienen las personas en conocer la oferta de actividades recreativas disponibles en cierto lugar en tiempo real, principalmente en un viaje, además de la imposibilidad de conectar con otros para poder realizarlas en caso de no contar con alguien disponible. También atendemos la problemática que tienen comercios y emprendedores locales en dar a conocer sus propuestas de actividades y conseguir nuevos clientes.”
 
-•	Encabezado: Para el encabezado del h1 utilicé el texto: “Lo que significa ser Fiumo”
+•	Encabezado: Para el encabezado del h1 utilicé el texto: “¿Por qué somos Fiumo?”
 
 •	Título: Para el título utilicé el texto personalizado: “Fiumo – Who We Are”
 

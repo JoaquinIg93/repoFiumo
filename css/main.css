@@ -149,6 +149,7 @@ form label input {
 .presentacion__formulario {
   text-align: left;
   border: solid rgb(164, 15, 201) 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 1rem;
   align-items: center;
 }
@@ -182,12 +183,14 @@ form label input {
   text-align: center;
   border: none;
   margin: 1rem 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .presentacion__caracteristicas {
   display: inline-block;
   margin: 3rem 2rem;
   border: solid rgb(77, 25, 201) 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   text-align: center;
   padding: 1rem;
 }
@@ -196,6 +199,15 @@ form label input {
   display: inline-block;
   margin: 1rem;
   text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.profilePic {
+  display: inline-block;
+  width: 12%;
+  border-radius: 10%;
+  text-align: center;
+  margin: 1rem;
 }
 
 .nosotros__titulo--xxl {
@@ -209,6 +221,7 @@ form label input {
   display: block;
   text-align: center;
   margin: 1rem 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .identidad__subtitulos {
@@ -229,8 +242,10 @@ form label input {
 .eventos__descripcion {
   display: inline-block;
   text-align: center;
-  margin-bottom: 3rem;
-  margin: 1rem 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .funcionalidades__titulo--xxl {
@@ -248,10 +263,12 @@ form label input {
 
 .funcionalidades__descripcion2 {
   margin-bottom: 3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .funcionalidades__seccion {
   width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .consulta__titulo--xxl {
@@ -263,9 +280,14 @@ form label input {
 
 .formulario__campos {
   text-align: center;
-  margin-top: 1%;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 3rem;
   padding: 1rem;
   justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: url("../img/fondoformulario.jpg");
 }
 
 .redes {
@@ -292,6 +314,7 @@ main div a img {
      object-fit: cover;
   height: 100%;
   width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .fotoDj {
