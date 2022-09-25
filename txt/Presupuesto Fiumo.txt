@@ -46,4 +46,5 @@ Servicios Detallados:
 	Se aplicaron las modificaciones necesarias para mejorar el SEO, como por ejemplo cambiando los títulos, textos alternativos, descripciones y keywords.		
 			
 5)	Hosting + Dominio:		
-	Se desplegó el proyecto en un hosting gratuito (Netlify) y el dominio aún no fue registrado.		
+	Se desplegó el proyecto en un hosting gratuito (Netlify) y el dominio aún no fue registrado.
+      URL: https://profound-melba-feb33e.netlify.app/		
