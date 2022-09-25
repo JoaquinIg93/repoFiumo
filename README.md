@@ -1,6 +1,7 @@
 # repoFiumo
 
 **Alumno: Joaquin Ignacio Marsico**
+
 **Proyecto: Fiumo**
 
 **1)** Generé los wireframes para mobile y para desktop en "Wireframe CC" teniendo en cuenta mi tema elegido. Luego, creé los archivos html de las secciones y utilicé las etiquetas semánticas vistas en clase.
