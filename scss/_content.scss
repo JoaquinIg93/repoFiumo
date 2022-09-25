@@ -117,7 +117,7 @@ form{
 
 .profilePic{
     display: inline-block;
-    width: 12%;
+    width: 11%;
     border-radius: 10%;
     text-align: center;
     margin:$MarginMd;
@@ -151,7 +151,7 @@ form{
     font-size: $headlineXxl;
     text-align: center;
     margin-top: $MarginL;
-    margin-bottom: $MarginL;
+    margin-bottom: $MarginXl;
 }
 .eventos__descripcion{
     display: inline-block;
@@ -159,7 +159,6 @@ form{
     box-shadow: $boxShadow;
     margin-right: $MarginL;
     margin-left: $MarginL;
-    margin-top: $MarginL;
 }
 
 //Funcionalidades

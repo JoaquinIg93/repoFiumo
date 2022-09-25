@@ -1,0 +1,49 @@
+Presupuesto Web
+			
+Válido hasta: 25/11/2022		
+			
+Nombre del Proyecto: Fiumo		
+Fecha: 25/10/2022	
+
+Cotización del dólar al día de la fecha: 
+USD 1 = $300
+			
+			
+			
+Tipo de Servicios:	Descripción	Moneda	                  Precio total
+     1)	              Instalación y configuración Inicial	USD	5
+     2)	              Diseño del Site	                        USD	15
+     3)	              Desarrollo del Site	                  USD	400
+     4)	              SEO Orgánico	                        USD	10
+     5)	              Hosting + Dominio	                  USD	2
+			
+	                                             Sub Total	USD	432
+	                                             IVA (21%)	USD	90,72
+	                                                  Total	USD	522,72
+			
+			
+			
+Servicios Detallados:			
+			
+1)	Instalación y configuración Inicial:
+      Instalación y configuración de la última versión de Visual Studio.		
+	Instalación y configuración de los plugins básicos		
+	Creación de cuenta y configuración del Repositorio en Github.		
+			
+2)	Diseño de los wireframes del Site:	
+	Diseño de los Wireframes para definir la estructura del site. 		
+	Diseño de las páginas (Home, Funcionalidades, Eventos, Nosotros y Contacto) en versión Desktop y Mobile.		
+			
+3)	Desarrollo del Site:	
+	Se crearon las páginas mencionadas anteriormente con todo su contenido en HTML.		
+	Se aplicó  CSS para modificar textos, encabezados, img, colores, background y box modeling a los archivos HTML.		
+	Se generó para la sección "Funcionalidades" del proyecto, una galería de imágenes totalmente responsive utilizando grids y media queries, para el resto de los HTML se utilizó flexbox para los componentes y box modeling para terminar de acomodar los elementos.		
+	Se aplicó Bootstrap para generar un carrusel de imágenes para el index y un formulario para la sección "Contacto". También se creó el boton hamburguesa desplegable para su versión mobile. 		
+	Se configuró el proyecto para que soporte SASS. Aplicando partials, componentes y variables para luego compilarlo en un CSS más ordenado.		
+	Se aplicó un mapa, un mixin y un extend para modificar elementos del sitio. 		
+			
+4)	SEO Orgánico:	
+	Se aplicaron las modificaciones necesarias para mejorar el SEO, como por ejemplo cambiando los títulos, textos alternativos, descripciones y keywords.		
+			
+5)	Hosting + Dominio:		
+	Se desplegó el proyecto en un hosting gratuito y el dominio aún no fue registrado.		
