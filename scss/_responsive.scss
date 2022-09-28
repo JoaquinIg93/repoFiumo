@@ -17,21 +17,27 @@ main{
 
 .fotoDj{
     grid-area: fotoA;
+    margin: $MarginMd;
 }
 .fotoExcursion{
     grid-area: fotoB;
+    margin: $MarginMd;
 }
 .fotoFiesta{
     grid-area: fotoC;
+    margin: $MarginMd;
 }
 .fotoPlaya{
     grid-area: fotoD;
+    margin: $MarginMd;
 }
 .fotoRecital{
     grid-area: fotoE;
+    margin: $MarginMd;
 }
 .fotoTrekking{
     grid-area: fotoF;
+    margin: $MarginMd;
 }
 
 #galeria{

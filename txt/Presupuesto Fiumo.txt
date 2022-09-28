@@ -32,7 +32,7 @@ Servicios Detallados:
 			
 2)	Diseño de los wireframes del Site:	
 	Diseño de los Wireframes para definir la estructura del site. 		
-	Diseño de las páginas (Home, Funcionalidades, Eventos, Nosotros y Contacto) en versión Desktop y Mobile.		
+	Diseño de las páginas (Home, Funcionalidades, Eventos, Nosotros, Contacto y Error 404) en versión Desktop y Mobile.		
 			
 3)	Desarrollo del Site:	
 	Se crearon las páginas mencionadas anteriormente con todo su contenido en HTML.		

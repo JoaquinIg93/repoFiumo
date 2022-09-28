@@ -204,7 +204,8 @@ form label input {
 
 .profilePic {
   display: inline-block;
-  width: 11%;
+  align-items: center;
+  width: 10%;
   border-radius: 10%;
   text-align: center;
   margin: 1rem;
@@ -318,26 +319,32 @@ main div a img {
 
 .fotoDj {
   grid-area: fotoA;
+  margin: 1rem;
 }
 
 .fotoExcursion {
   grid-area: fotoB;
+  margin: 1rem;
 }
 
 .fotoFiesta {
   grid-area: fotoC;
+  margin: 1rem;
 }
 
 .fotoPlaya {
   grid-area: fotoD;
+  margin: 1rem;
 }
 
 .fotoRecital {
   grid-area: fotoE;
+  margin: 1rem;
 }
 
 .fotoTrekking {
   grid-area: fotoF;
+  margin: 1rem;
 }
 
 #galeria {

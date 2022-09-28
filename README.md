@@ -17,3 +17,9 @@
 **6)** Configuré mi proyecto para que soporte SASS. Aplicando los partials, componentes y variables para luego compilarlo en un CSS más ordenado.
 
 **7)** Apliqué un mapa, un mixin y un extend para modificar elementos de mi sitio. Realizando también las modificaciones necesarias para mejorar el SEO, como por ejemplo cambiando los títulos, textos alternativos, descripciones y keywords.
+
+**Link de Repositorio GitHub:** https://github.com/JoaquinIg93/repoFiumo.git
+
+**Link de GitHub Pages:** https://joaquinig93.github.io/repoFiumo/
+
+**Link de servidor gratuito Netlify:** https://profound-melba-feb33e.netlify.app/
