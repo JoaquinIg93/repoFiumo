@@ -187,8 +187,8 @@ form label input {
 }
 
 .presentacion__caracteristicas {
-  display: inline-block;
-  margin: 3rem 2rem;
+  display: block;
+  margin: 3rem;
   border: solid rgb(77, 25, 201) 0.5rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   text-align: center;
@@ -196,19 +196,20 @@ form label input {
 }
 
 .presentacion__opiniones {
-  display: inline-block;
+  display: block;
   margin: 1rem;
   text-align: center;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .profilePic {
-  display: inline-block;
-  align-items: center;
+  display: flex;
+  align-content: center;
   width: 10%;
   border-radius: 10%;
   text-align: center;
   margin: 1rem;
+  margin-left: 45%;
 }
 
 .nosotros__titulo--xxl {
